@@ -1,0 +1,39 @@
+Bug Report 1
+
+Description:
+
+See All Bots button does not work
+
+Steps to reproduce
+1. Start the app
+2. Push the button called 'See All Bots'
+
+Expected Result
+1. All robots should be listed
+
+Actual Result
+1. Error 400 status code
+2. ERROR GETTING BOTS ReferenceError: botsArr is not defined
+
+Environment
+- Chrome v114.0.5735.198
+- MacOS Ventura 13.1
+------------------------------------------------------------------------
+
+Bug Report 2
+
+Description:
+
+Winning a round increases losses tally by 1
+
+Steps to reproduce
+1. Start the app
+2. Push the Draw button
+3. Select any 2 robots
+4. Press Duel! button
+5. Repeat until a round is won
+6. Observe Losses tally has increased by 1
+
+Expected Result
+1. Wins tally increases by 1
+2. Losses tally remains the same as when the round started

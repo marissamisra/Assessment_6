@@ -1,0 +1,12 @@
+Test Case:
+
+See All Bots button
+
+Description: Verify clicking See All Bots displays a list of bots players can choose from
+
+Steps:
+1. Start the app
+2. Push the button called 'See All Bots'
+
+PostConditions:
+- All selectable bots should display on the screen
